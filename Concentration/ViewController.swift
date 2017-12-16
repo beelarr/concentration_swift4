@@ -5,11 +5,13 @@
 //  Created by Bryon Larrance on 12/15/17.
 //  Copyright © 2017 Bryon Larrance. All rights reserved.
 //
+
+
 // Top CocoTouch Layer
 import UIKit
 
 class ViewController: UIViewController {
-    
+    var game = Concentration()
     var flipCount = 0 {
         didSet {
             flipCountLabel.text = "Flips: \(flipCount)"
