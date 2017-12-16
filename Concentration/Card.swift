@@ -14,4 +14,16 @@ struct Card
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
+    
+//    Stored with Card type not card
+    static var indentifierFactory = 0
+    
+    static func getUniqueIdentifier() -> Int {
+        indentifierFactory += 1
+        return indentifierFactory
+    }
+    
+    init(){
+        self.identifier = Card.getUniqueIdentifier()
+    }
 }
