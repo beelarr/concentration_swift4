@@ -19,7 +19,11 @@ class ViewController: UIViewController {
 
         }
     }
+    @IBAction func newGame(_ sender: UIButton) {
+        
 
+    }
+    
     @IBOutlet weak var flipCountLabel: UILabel!
     
     @IBOutlet var cardButtons: [UIButton]!
@@ -49,7 +53,7 @@ class ViewController: UIViewController {
         }
     }
 
-    var emojiChoices = ["🎄", "🎅", "⛄️", "🎁", "🤶", "❄️" ]
+    var emojiChoices = ["🎄", "🎅", "⛄️", "🎁", "🤶", "❄️", "🏂", "🎿", "⛷", "🏔", "🎊", "🎉" ]
     
     var emoji = [Int:String]()
 

@@ -16,6 +16,7 @@
 		729889511FE45C3600AAA9F9 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729889501FE45C3600AAA9F9 /* ConcentrationUITests.swift */; };
 		729889601FE5D36600AAA9F9 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298895F1FE5D36600AAA9F9 /* Concentration.swift */; };
 		729889621FE5D42000AAA9F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729889611FE5D42000AAA9F9 /* Card.swift */; };
+		729889641FE8266600AAA9F9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 729889631FE8266600AAA9F9 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		729889521FE45C3600AAA9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7298895F1FE5D36600AAA9F9 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		729889611FE5D42000AAA9F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		729889631FE8266600AAA9F9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		729889241FE45C3500AAA9F9 = {
 			isa = PBXGroup;
 			children = (
+				729889631FE8266600AAA9F9 /* README */,
 				7298892F1FE45C3500AAA9F9 /* Concentration */,
 				729889441FE45C3600AAA9F9 /* ConcentrationTests */,
 				7298894F1FE45C3600AAA9F9 /* ConcentrationUITests */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729889641FE8266600AAA9F9 /* README in Resources */,
 				7298893B1FE45C3500AAA9F9 /* LaunchScreen.storyboard in Resources */,
 				729889381FE45C3500AAA9F9 /* Assets.xcassets in Resources */,
 				729889361FE45C3500AAA9F9 /* Main.storyboard in Resources */,
